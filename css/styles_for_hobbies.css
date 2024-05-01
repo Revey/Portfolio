@@ -1,10 +1,21 @@
+.resize{
+  width: 400px;
+  height: auto;
+}
+
+div{
+  border: 3px solid red;
+  background-size: contain;
+  background-repeat: no-repeat
+  }
+
+/*
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
   }
   
-  /* Create two equal columns that sits next to each other */
   .column {
     flex: 50%;
     padding: 0 4px;
@@ -13,4 +24,13 @@
   .column img {
     margin-top: 8px;
     vertical-align: middle;
+    max-width: 50%;
+    max-height: 50%;
   }
+
+  .row.column img{
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid blue;
+  }
+*/
