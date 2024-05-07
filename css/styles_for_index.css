@@ -1,21 +1,36 @@
-
+*{
+    background-color: #003366;
+}
 
 .header{
-    margin: auto;
-    height: 150px;
-    width: 200px;
+    display: flex;
+    border-radius: 100px;
+    background-color: #87CEEB;
     text-align: center;
+    justify-content: center;
+    flex: 1;
+    padding: 5px;
+
 }
 .header2{
-    width: 250px;
+    width: 200px;
     height: 50px;
     text-align: center;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
 }
 .links{
     margin: auto;
     text-align: center;
+    justify-content: center;
     height: auto;
     width: 20px;
+    padding-right: 30px;
 
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
