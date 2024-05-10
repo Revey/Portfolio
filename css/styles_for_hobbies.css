@@ -1,3 +1,8 @@
+*{
+  background-color: #003366;
+  color: white;
+}
+
 .resize{
   width: 400px;
   height: auto;
