@@ -1,6 +1,10 @@
 *{
   background-color: #003366;
   color: white;
+  border: 0px solid ;
+  padding: 2px;
+  margin: 2px;
+
 }
 
 .resize{
@@ -13,6 +17,15 @@ div{
   background-size: contain;
   background-repeat: no-repeat
   }
+button a{
+  text-decoration: none;
+  padding: 10px;
+   margin-top: 10px;
+}
+
+.backButton{
+  margin-right: auto;
+}
 
 /*
 .row {
