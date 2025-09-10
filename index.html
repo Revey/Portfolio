@@ -13,9 +13,9 @@
     <div>
         <h1 class="header">Daniel Torres</h1>
     </div>
-    <div>
+    <div class="image-container">
         <!-- Add the val - danny image below the header -->
-        <img src="./img/val - danny (2).jpg" alt="Val - Danny" style="max-width: 300px; width: 100%; height: auto;">
+        <img src="./img/val - danny (2).jpg" alt="Val - Danny">
     </div>
     <div class="links">
         <a href="https://www.revey.dev/">Personal Website</a>
@@ -30,7 +30,15 @@
         </ul>
     </div>
     <div class="button">
-
+        <button onclick="changeSecondHobbyColor()">Click Me</button>
     </div>
     <div></div>
+    
+    <script>
+        function changeSecondHobbyColor() {
+            const secondHobby = document.querySelectorAll('.about-me ul li')[1];
+            secondHobby.style.color = 'red';
+            secondHobby.textContent = 'Eating';
+        }
+    </script>
 </body>
